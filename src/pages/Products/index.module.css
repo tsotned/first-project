@@ -1,0 +1,45 @@
+.prodactList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.prodactCard{
+    border: 1px solid gray;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.pagination > div{
+    border: 1px solid  gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: brown !important;
+    color: aliceblue;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}

@@ -1,0 +1,18 @@
+.header{
+    background-color:antiquewhite ;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.link{  
+    color: black;
+    text-decoration: none;
+}
+
+.linkActive{
+    color: red;
+    text-decoration: none;
+}
