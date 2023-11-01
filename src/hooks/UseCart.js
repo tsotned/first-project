@@ -2,7 +2,7 @@ import { useContext } from "react";
 import CartContext from "../contexts/CartContext";
 import axios from "axios";
 import useAuth from "./UseAuth";
-console.log("hello");
+console.log("hello1");
 const UseCart = () => {
   const { cart, setCart } = useContext(CartContext);
   const { auth, logout } = useAuth();
